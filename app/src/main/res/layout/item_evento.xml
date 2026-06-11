@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- =====================================
+         🔥 TARJETA
+    ===================================== -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="18dp"
+        android:elevation="4dp">
+
+        <!-- =====================================
+             🔥 TITULO
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎉 Evento"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#222222"/>
+
+        <!-- =====================================
+             🔥 DESCRIPCIÓN
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción evento"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"/>
+
+        <!-- =====================================
+             🔥 CATEGORÍA
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtCategoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎯 Cultural"
+            android:textStyle="bold"
+            android:textColor="#6A4FB3"
+            android:textSize="15sp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- =====================================
+             🔥 FECHA
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📅 Fecha"
+            android:textSize="15sp"
+            android:textColor="#444444"
+            android:layout_marginTop="10dp"/>
+
+        <!-- =====================================
+             🔥 DISTANCIA
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtDistancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📍 Cerca de ti"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"/>
+
+        <!-- =====================================
+             🔥 TIPO EVENTO
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💰 Gratis"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- =====================================
+             🔥 INTERESADOS
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtInteresados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔥 0 interesados"
+            android:textSize="14sp"
+            android:textColor="#FF5722"
+            android:layout_marginTop="10dp"/>
+
+        <!-- =====================================
+             🔥 BOTÓN
+        ===================================== -->
+
+        <Button
+            android:id="@+id/btnVerMas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver más"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

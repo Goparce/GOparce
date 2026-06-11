@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- =====================================
+         🔥 TARJETA MURO
+    ===================================== -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:padding="16dp">
+
+        <!-- =====================================
+             🔥 TÍTULO
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎨 Muro"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#000000"/>
+
+        <!-- =====================================
+             🔥 DESCRIPCIÓN
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Descripción"
+            android:textSize="15sp"
+            android:textColor="#444444"/>
+
+        <!-- =====================================
+             🔥 PUBLICACIONES
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtPublicaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="📰 Noticias: 0"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+        <!-- =====================================
+             🔥 FECHA
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="📅 Fecha"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <!-- =====================================
+             🔥 VER MURO
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtVerMuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="➡ Ver muro"
+            android:textColor="#2962FF"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

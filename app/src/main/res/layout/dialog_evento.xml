@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- =====================================
+             🔥 TÍTULO
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtTituloDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título evento"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <!-- =====================================
+             🔥 FECHA Y HORA
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtFechaDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📅 Fecha"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- =====================================
+             🔥 DIRECCIÓN
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtDireccionDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Dirección"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- =====================================
+             🔥 INTERESADOS
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtInteresadosDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔥 0 interesados"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- =====================================
+             🔥 ETIQUETAS
+        ===================================== -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Etiquetas"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txtEtiquetasDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#Música #Festival"
+            android:textSize="15sp"
+            android:layout_marginTop="6dp"/>
+
+        <!-- =====================================
+             🔥 DESCRIPCIÓN
+        ===================================== -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txtDescripcionDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción completa"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- =====================================
+             🔥 BOTÓN ME INTERESA
+        ===================================== -->
+
+        <Button
+            android:id="@+id/btnInteresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔥 Me interesa"
+            android:layout_marginTop="25dp"/>
+
+        <!-- =====================================
+             🔥 BOTÓN UBICACIÓN
+        ===================================== -->
+
+        <Button
+            android:id="@+id/btnUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Ver ubicación"
+            android:layout_marginTop="10dp"/>
+
+        <!-- =====================================
+             🔥 BOTÓN CERRAR
+        ===================================== -->
+
+        <Button
+            android:id="@+id/btnCerrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- =====================================
+         🔥 TARJETA CUPÓN
+    ===================================== -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:padding="16dp">
+
+        <!-- =====================================
+             🔥 NOMBRE
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎟 Cupón"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <!-- =====================================
+             🔥 DESCRIPCIÓN
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textSize="15sp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"/>
+
+        <!-- =====================================
+             🔥 CÓDIGO
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/codigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Código"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#2962FF"
+            android:layout_marginTop="12dp"/>
+
+        <!-- =====================================
+             🔥 INFO
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disponibles"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="10dp"/>
+
+        <!-- =====================================
+             🔥 BOTÓN
+        ===================================== -->
+
+        <Button
+            android:id="@+id/btnUsar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obtener cupón"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

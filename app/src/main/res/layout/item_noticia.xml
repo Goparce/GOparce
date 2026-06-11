@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- =====================================
+         🔥 TARJETA NOTICIA
+    ===================================== -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:padding="16dp">
+
+        <!-- =====================================
+             🔥 TÍTULO
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtTituloNoticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📰 Noticia"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <!-- =====================================
+             🔥 TIPO
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtTipoNoticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📌 Cultural"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#2962FF"
+            android:layout_marginTop="8dp"/>
+
+        <!-- =====================================
+             🔥 DESCRIPCIÓN
+        ===================================== -->
+
+        <TextView
+            android:id="@+id/txtDescripcionNoticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción noticia"
+            android:textSize="15sp"
+            android:textColor="#444444"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
